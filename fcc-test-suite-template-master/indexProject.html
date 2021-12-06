@@ -3,23 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="indexproject.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style></style>
   </head>
   <body>
-    <h1>FreeCodeCamp Survey Form</h1>
-    <p>Thank you for taking the time to help us improve the platform</p>
+    <div class="entire-body">
+    <div class="h11">
+    <p><span class="header">FreeCodeCamp Survey Form</span><br><br>
+    <em>Thank you for taking the time to help us improve the platform</em></p>
+  </div>
     <form id="survey-form">
-      <label id="name-labe" for="name">Name:</label>
-      <input id="name" type="text" placeholder="Enter your Name" />
-      <label id="email-labe" for="email">Email:</label>
-      <input id="email" type="email" placeholder="Enter your email" />
-      <label id="number-label" for="number">Age:</label>
-      <input id="number" type="number" placeholder="Enter your age" min= />
-      <div>
+    <div class="survey">
+      <label id="name-label" for="name" class="labeltag">Name:</label>
+      <input id="name" type="text" placeholder="Enter your Name" class="inputsurvey"/>
+    </div>
+    <div class="survey">
+        <label id="email-label" for="email" class="labeltag">Email:</label>
+      <input id="email" type="email" placeholder="Enter your email" class="inputsurvey"/>
+    </div>
+    <div class="survey">
+      <label id="number-label" for="number" class="labeltag">Age:</label>
+      <input id="number" type="number" placeholder="Enter your age" class="inputsurvey" />
+    </div>
+      <div class="survey">
         <p>Which option best discribes your current role</p>
-        <select>
+        <select class="selectsurvey">
           <option disable selected value>select current role</option>
           <option value="student">Student</option>
           <option value="job">Full time job</option>
@@ -28,7 +38,7 @@
           <option value="other">other</option>
         </select>
       </div>
-      <div>
+      <div class="survey">
         <p>would you recomend freecodecamp to friend</p>
         <label for="definitely"
           ><input
@@ -37,7 +47,7 @@
             type="radio"
             name="recomende"
           />Definitely</label
-        >
+        ><br><br>
         <label for="maybe"
           ><input
             id="maybe"
@@ -46,6 +56,7 @@
             name="recomende"
           />Maybe</label
         >
+        <br><br>
         <label for="not-sure"
           ><input
             id="not-sure"
@@ -55,9 +66,9 @@
           />Not-sure</label
         >
       </div>
-      <div>
+      <div class="survey">
         <p>What is your favourite feature of freecodecamp</p>
-        <select>
+        <select class="selectsurvey">
           <option disable selected value>select an option</option>
           <option value="challenges">challenges</option>
           <option value="projects">projects</option>
@@ -65,7 +76,7 @@
           <option value="open source">Open source</option>
         </select>
       </div>
-      <div>
+      <div class="survey">
         <p>what whould you liked to see improved( check all that apply )</p>
         <label for="front-end"
           ><input
@@ -74,7 +85,7 @@
             type="checkbox"
             name="improvment"
           />Front-end Projects</label
-        >
+        ><br>
         <label for="back-end">
           <input
             id="back-end"
@@ -82,7 +93,7 @@
             type="checkbox"
             name="improvment"
           />Back-end Projects</label
-        >
+        ><br>
         <label for="data-visualization">
           <input
             id="data-visualization"
@@ -90,7 +101,7 @@
             type="checkbox"
             name="improvment"
           />Data-visualization</label
-        >
+        ><br>
         <label for="challenges">
           <input
             id="challenges"
@@ -98,7 +109,7 @@
             type="checkbox"
             name="improvment"
           />challenges</label
-        >
+        ><br>
         <label for="opensource-community">
           <input
             id="opensource-community"
@@ -106,7 +117,7 @@
             type="checkbox"
             name="improvment"
           />opensource-community</label
-        >
+        ><br>
         <label for="Gitter-help-rooms">
           <input
             id="Gitter-help-rooms"
@@ -114,7 +125,7 @@
             type="checkbox"
             name="improvment"
           />Gitter-help-rooms</label
-        >
+        ><br>
         <label for="videos">
           <input
             id="videos"
@@ -122,7 +133,7 @@
             type="checkbox"
             name="improvment"
           />videos</label
-        >
+        ><br>
         <label for="City-Meetups">
           <input
             id="City-Meetups"
@@ -130,7 +141,7 @@
             type="checkbox"
             name="improvment"
           />City-Meetups</label
-        >
+        ><br>
         <label for="Forum">
           <input
             id="Forum"
@@ -138,7 +149,7 @@
             type="checkbox"
             name="improvment"
           />Forum</label
-        >
+        ><br>
         <label for="addtional-courses">
           <input
             id="addtional-courses"
@@ -146,19 +157,20 @@
             type="checkbox"
             name="improvment"
           />addtional-courses</label
-        >
+        ><br>
       </div>
-      <div>
+      <div class="survey">
         <p>Any comments or suggestions?</p>
         <textarea
           name="comment"
           id="comment"
-          placeholder="Enter your comment here"
+          placeholder="Enter your comment here" class="textsurvey"
         ></textarea>
       </div>
-      <div>
-        <button type="button" id="submit">Submit</button>
+      <div class="survey">
+        <button type="button" id="submit" class="submit">Submit</button>
       </div>
     </form>
+  </div>
   </body>
 </html>

@@ -1,0 +1,68 @@
+.entire-body{
+    background: linear-gradient(#CCFFFF, #FFCCCC
+    );
+    width: 100%;
+    padding: auto;
+    margin: auto;
+}
+
+.h11{
+text-align: center;
+padding-top: 40px; 
+}
+
+.header{
+    font-size: 30px;
+}
+
+form{
+    width: 600px;
+    height: auto;
+    background-color: blue;
+    margin: auto;
+}
+
+.survey{
+    width: 500px;
+    padding: 20px; 
+}
+
+.labeltag{
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+.inputsurvey{
+    display: block;
+    width: 100%;
+    height: 30px;
+    border-radius: 0.3rem;
+    padding: 4px 10px;
+}
+
+.formclass{
+    margin: auto;
+    padding: 0.3rem;
+}
+
+.selectsurvey{
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 0.3rem;
+    padding: 4px 10px;
+}
+
+.textsurvey{
+    display: block;
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+}
+
+.submit{
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 40px;
+}
